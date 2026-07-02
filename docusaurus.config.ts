@@ -91,7 +91,7 @@ const config: Config = {
           items: [
             {
               label: '시작하기',
-              to: '/intro',
+              to: '/',
             },
           ],
         },
