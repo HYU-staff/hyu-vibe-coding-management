@@ -5,24 +5,32 @@
  */
 
 @font-face {
-  font-family: 'KoPub Dotum';
-  src: url('../../static/fonts/KoPub-Dotum-Light.woff2') format('woff2');
+  font-family: 'Noto Sans KR';
+  src: url('../../static/fonts/NotoSansKR-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'KoPub Dotum';
-  src: url('../../static/fonts/KoPub-Dotum-Medium.woff2') format('woff2');
+  font-family: 'Noto Sans KR';
+  src: url('../../static/fonts/NotoSansKR-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('../../static/fonts/NotoSansKR-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'KoPub Dotum';
-  src: url('../../static/fonts/KoPub-Dotum-Bold.woff2') format('woff2');
+  font-family: 'Noto Sans KR';
+  src: url('../../static/fonts/NotoSansKR-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -30,7 +38,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-font-family-base: 'KoPub Dotum', -apple-system, BlinkMacSystemFont,
+  --ifm-font-family-base: 'Noto Sans KR', -apple-system, BlinkMacSystemFont,
     'Segoe UI', sans-serif;
   --ifm-heading-font-weight: 700;
   --ifm-font-weight-bold: 700;
