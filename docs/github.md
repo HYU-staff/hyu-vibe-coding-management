@@ -31,11 +31,11 @@ GitHub (Remote, 클라우드에 있는 원격 저장소)
 
 ## PR과 Issue — 지금은 개념만
 
-:::info Pull Request (PR)
+:::info[Pull Request (PR)]
 코드 변경을 제안하고 리뷰받는 절차. 나중에 여러 명이 협업할 때 핵심적으로 사용합니다.
 :::
 
-:::info Issue
+:::info[Issue]
 버그나 할 일을 기록하고 논의하는 게시판. 오늘은 개념만 짚고 넘어갑니다.
 :::
 
