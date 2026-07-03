@@ -5,7 +5,7 @@ sidebar_position: 1
 description: 최신 PowerShell 7을 설치하고 확인하는 방법
 ---
 
-# 1. Windows PowerShell 7.6.0 설치
+# Windows PowerShell 7.6.0 설치
 
 > 이 문서는 로컬 PC 환경 설정의 첫 단계입니다. 모든 실습은 **PowerShell 7**(pwsh)을 기준으로 진행됩니다.
 

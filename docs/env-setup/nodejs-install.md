@@ -5,7 +5,7 @@ sidebar_position: 2
 description: AI CLI 도구와 clasp 실행에 필요한 Node.js LTS 설치 방법
 ---
 
-# 2. PowerShell에서 Node.js 최신 LTS 설치
+# PowerShell에서 Node.js 최신 LTS 설치
 
 > 이 단계는 [PowerShell 7 설치](./powershell-install)를 마친 뒤 진행합니다. AI CLI 도구, `clasp` 등 오늘 사용할 도구들은 모두 Node.js 위에서 동작합니다.
 
