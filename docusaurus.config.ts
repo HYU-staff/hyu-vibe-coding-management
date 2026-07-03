@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -74,7 +74,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '학습 자료',
+          label: '교육자료',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'envSetupSidebar',
+          position: 'left',
+          label: '로컬 PC 세팅',
         },
         {
           href: 'https://github.com/HYU-Planning/hyu-vibe-coding-management',

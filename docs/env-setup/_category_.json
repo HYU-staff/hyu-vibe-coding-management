@@ -1,0 +1,8 @@
+{
+  "label": "로컬 PC 환경 설정",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "실습을 시작하기 전, PowerShell 7과 Node.js LTS를 먼저 설치합니다."
+  }
+}

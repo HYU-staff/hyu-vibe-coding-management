@@ -55,11 +55,11 @@ flowchart LR
 
 | 순서 | 내용 | 시간 |
 |---|---|---|
-| 01 | [Git 기초 개념 · 설치 · 실습](./git-basics) | 1.5h |
-| 02 | [GitHub 개념 · 사용법](./github) | 1h |
-| 03 | [AI CLI 도구 설치 · 실습](./ai-cli) | 1h |
-| 04 | [clasp · AppScript · 충돌 해결](./clasp-appscript) | 2h |
-| 05 | [마무리 · 습관 정리](./wrap-up) | 0.5h |
+| 01 | [Git 기초 개념 · 설치 · 실습](/curriculum/git-basics) | 1.5h |
+| 02 | [GitHub 개념 · 사용법](/curriculum/github) | 1h |
+| 03 | [AI CLI 도구 설치 · 실습](/curriculum/ai-cli) | 1h |
+| 04 | [clasp · AppScript · 충돌 해결](/curriculum/clasp-appscript) | 2h |
+| 05 | [마무리 · 습관 정리](/curriculum/wrap-up) | 0.5h |
 
 ## 시작 전 확인해주세요
 
@@ -68,4 +68,4 @@ flowchart LR
 - [ ] Google 계정 로그인 상태
 - [ ] GitHub 계정 보유 여부
 
-준비되셨다면, [Section 1. Git 기초](./git-basics)부터 시작해봅시다.
+준비되셨다면, [Section 1. Git 기초](/curriculum/git-basics)부터 시작해봅시다.
