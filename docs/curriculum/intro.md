@@ -10,10 +10,6 @@ slug: /
 
 **Git · GitHub · AI CLI · clasp로 배우는 실전 워크플로우**
 
-:::info[AI-Facilitator 입문 교육]
-총 0시간 과정입니다.
-:::
-
 ## 왜 지금 이 교육이 필요한가
 
 지금까지 각 팀의 바이브 코딩 프로젝트는 담당자 개인 PC 안에만 따로따로 존재해왔습니다 (예: 경영혁신팀, 예산팀, 총무팀, 인사팀 등).
@@ -54,13 +50,13 @@ flowchart LR
 
 ## 오늘의 순서
 
-| 순서 | 내용 | 시간 |
-|---|---|---|
-| 01 | [Git 기초 개념 · 설치 · 실습](/curriculum/git-basics) | 0h |
-| 02 | [GitHub 개념 · 사용법](/curriculum/github) | 0h |
-| 03 | [AI CLI 도구 설치 · 실습](/curriculum/ai-cli) | 0h |
-| 04 | [clasp · AppScript · 충돌 해결](/curriculum/clasp-appscript) | 0h |
-| 05 | [마무리 · 습관 정리](/curriculum/wrap-up) | 0h |
+| 순서 | 내용 |
+|---|---|
+| 01 | [Git 기초 개념 · 설치 · 실습](/curriculum/git-basics) |
+| 02 | [GitHub 개념 · 사용법](/curriculum/github) |
+| 03 | [AI CLI 도구 설치 · 실습](/curriculum/ai-cli) |
+| 04 | [clasp · AppScript · 충돌 해결](/curriculum/clasp-appscript) |
+| 05 | [마무리 · 습관 정리](/curriculum/wrap-up) |
 
 ## 시작 전 확인해주세요
 
