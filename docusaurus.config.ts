@@ -83,6 +83,12 @@ const config: Config = {
           label: '로컬 PC 세팅 가이드',
         },
         {
+          href: '/hyu-vibe-coding-management/files/vibe-coding-slides.pdf',
+          label: '슬라이드 자료',
+          position: 'left',
+          target: '_blank',
+        },
+        {
           href: 'https://github.com/HYU-staff/hyu-vibe-coding-management',
           label: 'GitHub',
           position: 'right',
