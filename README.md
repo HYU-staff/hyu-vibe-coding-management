@@ -2,7 +2,7 @@
 
 한양대학교 바이브 코딩(Vibe Coding) 방법론 교육 자료입니다. [Docusaurus](https://docusaurus.io/)로 제작되었으며, `main` 브랜치에 push 하면 GitHub Actions를 통해 자동으로 GitHub Pages에 배포됩니다.
 
-배포 사이트: https://HYU-Planning.github.io/hyu-vibe-coding-management/
+배포 사이트: https://HYU-staff.github.io/hyu-vibe-coding-management/
 
 ## 로컬 개발
 

@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://HYU-Planning.github.io',
+  url: 'https://HYU-staff.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/hyu-vibe-coding-management/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'HYU-Planning', // Usually your GitHub org/user name.
+  organizationName: 'HYU-staff', // Usually your GitHub org/user name.
   projectName: 'hyu-vibe-coding-management', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -47,7 +47,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/HYU-Planning/hyu-vibe-coding-management/tree/main/',
+            'https://github.com/HYU-staff/hyu-vibe-coding-management/tree/main/',
         },
         blog: false,
         theme: {
@@ -83,7 +83,7 @@ const config: Config = {
           label: '로컬 PC 세팅 가이드',
         },
         {
-          href: 'https://github.com/HYU-Planning/hyu-vibe-coding-management',
+          href: 'https://github.com/HYU-staff/hyu-vibe-coding-management',
           label: 'GitHub',
           position: 'right',
         },
@@ -106,7 +106,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/HYU-Planning/hyu-vibe-coding-management',
+              href: 'https://github.com/HYU-staff/hyu-vibe-coding-management',
             },
           ],
         },
