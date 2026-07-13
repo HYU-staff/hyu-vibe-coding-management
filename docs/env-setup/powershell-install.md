@@ -20,7 +20,7 @@ Windows에는 기본적으로 "Windows PowerShell 5.1"이 내장되어 있지만
 | 실행 파일 | `powershell.exe` | `pwsh.exe` |
 
 :::caution[헷갈리지 마세요]
-작업 표시줄이나 시작 메뉴에 두 아이콘이 함께 보일 수 있습니다. 오늘 실습은 반드시 **검은색 아이콘(PowerShell 7)**을 사용합니다.
+작업 표시줄이나 시작 메뉴에 두 아이콘이 함께 보일 수 있습니다. 오늘 실습은 반드시 **검은색 아이콘**(PowerShell 7)을 사용합니다.
 :::
 
 ## 0단계 — 이미 설치되어 있는지 확인
@@ -43,7 +43,7 @@ pwsh -v
 winget --version
 ```
 
-오류가 나면 Microsoft Store에서 **"앱 설치 관리자(App Installer)"**를 검색해 설치한 뒤 다시 시도하세요.
+오류가 나면 Microsoft Store에서 **앱 설치 관리자**(App Installer)를 검색해 설치한 뒤 다시 시도하세요.
 
 ## 2단계 — 설치
 
@@ -83,7 +83,7 @@ winget show --id Microsoft.PowerShell --versions
 
 ## 3단계 — 설치 확인
 
-설치 후 **기존에 열려 있던 터미널 창은 모두 닫고**, 시작 메뉴에서 **"PowerShell 7"**을 새로 실행합니다.
+설치 후 **기존에 열려 있던 터미널 창은 모두 닫고**, 시작 메뉴에서 **PowerShell 7**을 새로 실행합니다.
 
 ```powershell
 PS C:\Users\you> $PSVersionTable.PSVersion
