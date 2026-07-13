@@ -19,14 +19,20 @@ description: 오늘의 핵심, clasp로 연결하기 · 2시간
 
 **clasp** (Command Line Apps Script Projects)는 로컬 폴더와 AppScript 클라우드를 연결하는 다리 역할을 합니다.
 
-```
-로컬 폴더  →  clasp (연결 다리)  →  AppScript 클라우드
+```mermaid
+flowchart LR
+    A[로컬 폴더] --> B[clasp<br/>연결 다리]
+    B --> C[AppScript 클라우드]
 ```
 
 ## 오늘 만들 파이프라인
 
-```
-AI로 로컬 코드 작성 → git commit → clasp push → AppScript 반영 → 웹에서 결과 확인
+```mermaid
+flowchart LR
+    A[AI로 로컬 코드 작성] --> B[git commit]
+    B --> C[clasp push]
+    C --> D[AppScript 반영]
+    D --> E[웹에서 결과 확인]
 ```
 
 ## 실습 ⑦ clasp 설치 & Google 로그인

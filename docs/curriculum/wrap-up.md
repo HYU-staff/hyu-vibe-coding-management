@@ -15,12 +15,21 @@ description: 오늘 배운 것을 습관으로 만들기 · 30분
 2. **AI 작업 후** — `diff`로 검토하고 나눠서 커밋하기
 3. **.gitignore로** — 불필요한 파일 관리하기
 
+:::danger 대외비 파일 주의
+예산 자료, 개인정보가 담긴 시트 등 **대외비 파일은 절대 커밋하지 마세요.** 작업 폴더에 그런 파일이 있다면 반드시 `.gitignore`에 등록해 `git add`/`push` 대상에서 제외해야 합니다. 이미 커밋해버린 파일은 `.gitignore`에 나중에 추가해도 과거 이력에는 그대로 남으니, **커밋 전에 `git status`로 무엇이 올라가는지 항상 확인**하는 습관이 중요합니다.
+:::
+
 ## 오늘의 전체 그림
 
 이제 이 흐름을 직접 해보셨습니다.
 
-```
-AI로 로컬 코드 작성 → git commit → clasp push → AppScript 반영 → 웹에서 결과 확인 → git push
+```mermaid
+flowchart LR
+    A[AI로 로컬 코드 작성] --> B[git commit]
+    B --> C[clasp push]
+    C --> D[AppScript 반영]
+    D --> E[웹에서 결과 확인]
+    E --> F[git push]
 ```
 
 🏁 **완주하셨습니다!**

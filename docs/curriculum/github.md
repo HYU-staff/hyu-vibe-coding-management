@@ -19,11 +19,10 @@ description: 내 코드를 클라우드에 안전하게 · 1시간
 
 ## Repository & Remote
 
-```
-로컬 저장소 (내 컴퓨터 안의 Git 폴더)
-     │  push →
-     │  ← pull
-GitHub (Remote, 클라우드에 있는 원격 저장소)
+```mermaid
+flowchart LR
+    A[로컬 저장소<br/>내 컴퓨터 안의 Git 폴더] -- push --> B[GitHub<br/>Remote, 클라우드에 있는 원격 저장소]
+    B -- pull --> A
 ```
 
 - **push**: 로컬의 변경사항을 GitHub로 올리기

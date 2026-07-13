@@ -40,8 +40,9 @@ git add . && git commit -m "로그 추가"
 
 ## AI가 고쳤다고 바로 믿지 마세요
 
-```
-git diff 로 변경사항 확인  →  의미 단위로 나눠서 커밋
+```mermaid
+flowchart LR
+    A[git diff 로 변경사항 확인] --> B[의미 단위로 나눠서 커밋]
 ```
 
 :::tip
