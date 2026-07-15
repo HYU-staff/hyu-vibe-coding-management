@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'HYU Vibe Coding 가이드',
-  tagline: '한양대학교 바이브 코딩(Vibe Coding) 방법론 교육 자료',
+  tagline: '한양대학교 바이브 코딩(Vibe Coding) 가이드 교육 자료',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
