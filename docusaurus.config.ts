@@ -85,7 +85,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'envSetupSidebar',
           position: 'left',
-          label: '환경 설정 가이드',
+          label: '환경설정 안내',
         },
         {
           href: '/hyu-vibe-coding-management/files/vibe-coding-slides.pdf',

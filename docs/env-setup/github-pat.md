@@ -73,4 +73,4 @@ Git for Windows에는 **Git Credential Manager**가 기본 포함되어 있어, 
 
 ---
 
-**다음:** [Git 기초 개념 & 설치 & 실습](/curriculum/git-basics)
+**다음:** [Node.js 최신 LTS 설치](./nodejs-install)

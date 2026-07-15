@@ -1,13 +1,13 @@
 ---
 id: powershell-commands
 title: "PowerShell 기본 명령어"
-sidebar_position: 3
+sidebar_position: 2
 description: 실습 중 자주 쓰게 될 PowerShell 명령어를 미리 정리했습니다
 ---
 
 # PowerShell 기본 명령어
 
-> 이 문서는 [Node.js 설치](./nodejs-install)를 마친 뒤, 본격적인 실습([Section 1. Git 기초](/curriculum/git-basics))에 들어가기 전 참고용으로 보시면 됩니다. 외우실 필요는 없고, 실습 중 막히면 다시 돌아와 찾아보세요.
+> 이 문서는 [PowerShell 7 설치](./powershell-install)를 마친 뒤, 본격적인 실습([Section 1. Git 기초](/curriculum/git-basics))에 들어가기 전 참고용으로 보시면 됩니다. 외우실 필요는 없고, 실습 중 막히면 다시 돌아와 찾아보세요.
 
 ## 위치 확인 & 이동
 
@@ -88,4 +88,4 @@ function cleanUp() {
 
 ---
 
-**다음:** [GitHub 개인 액세스 토큰(PAT) 생성](./github-pat)
+**다음:** [Git 설치 & 최초 설정](./git-install)

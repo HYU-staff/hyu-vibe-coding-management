@@ -121,4 +121,4 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
-**다음:** [Node.js 최신 LTS 설치](./nodejs-install)
+**다음:** [PowerShell 기본 명령어](./powershell-commands)

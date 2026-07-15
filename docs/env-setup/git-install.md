@@ -1,13 +1,13 @@
 ---
 id: git-install
 title: "Git 설치 & 최초 설정"
-sidebar_position: 2
+sidebar_position: 3
 description: 실습에 필요한 Git 설치 방법과 최초 1회 설정
 ---
 
 # 3. Git 설치 & 최초 설정
 
-> 이 단계는 [Node.js 설치](./nodejs-install)를 마친 뒤 진행합니다. **PowerShell 7** 창에서 실행하세요.
+> 이 단계는 [PowerShell 기본 명령어](./powershell-commands)를 확인한 뒤 진행합니다. **PowerShell 7** 창에서 실행하세요.
 
 ## 0단계 — 이미 설치되어 있는지 확인
 
@@ -84,4 +84,4 @@ git config --global --list
 
 ---
 
-**다음:** [Node.js 최신 LTS 설치](./nodejs-install)
+**다음:** [GitHub 개인 액세스 토큰(PAT) 생성](./github-pat)
