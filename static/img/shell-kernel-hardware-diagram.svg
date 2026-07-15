@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 388" width="100%" style="max-width:680px" role="img" aria-label="쉘, 어플리케이션, 커널, 하드웨어의 계층 구조">
+<title>쉘, 어플리케이션, 커널, 하드웨어의 계층 구조</title>
+<desc>쉘과 어플리케이션은 시스템 콜을 통해 커널에 요청하고, 커널이 하드웨어를 제어하는 구조를 보여주는 다이어그램</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; }
+  .title { font-size: 14px; font-weight: 600; }
+  .subtitle { font-size: 12px; font-weight: 400; }
+  .conn { stroke: #5F5E5A; stroke-width: 1.5; fill: none; }
+</style>
+
+<rect x="100" y="40" width="220" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="210" y="58" text-anchor="middle" dominant-baseline="central" class="title" fill="#085041">Shell</text>
+<text x="210" y="80" text-anchor="middle" dominant-baseline="central" class="subtitle" fill="#0F6E56">명령을 해석해 실행</text>
+
+<rect x="360" y="40" width="220" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="470" y="58" text-anchor="middle" dominant-baseline="central" class="title" fill="#085041">Applications</text>
+<text x="470" y="80" text-anchor="middle" dominant-baseline="central" class="subtitle" fill="#0F6E56">브라우저, 에디터 등</text>
+
+<line x1="210" y1="96" x2="210" y2="166" class="conn" marker-end="url(#arrow)"/>
+<line x1="470" y1="96" x2="470" y2="166" class="conn" marker-end="url(#arrow)"/>
+<text x="340" y="131" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5F5E5A">system calls</text>
+
+<rect x="70" y="166" width="540" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="340" y="184" text-anchor="middle" dominant-baseline="central" class="title" fill="#3C3489">Kernel</text>
+<text x="340" y="206" text-anchor="middle" dominant-baseline="central" class="subtitle" fill="#534AB7">CPU, 메모리, 장치, 파일 관리</text>
+
+<line x1="340" y1="222" x2="340" y2="292" class="conn" marker-end="url(#arrow)"/>
+
+<rect x="70" y="292" width="540" height="56" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="340" y="310" text-anchor="middle" dominant-baseline="central" class="title" fill="#444441">Hardware</text>
+<text x="340" y="332" text-anchor="middle" dominant-baseline="central" class="subtitle" fill="#5F5E5A">CPU, RAM, 디스크, 네트워크 카드</text>
+
+</svg>
