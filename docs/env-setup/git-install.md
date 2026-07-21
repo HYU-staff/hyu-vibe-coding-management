@@ -5,7 +5,7 @@ sidebar_position: 3
 description: 실습에 필요한 Git 설치 방법과 최초 1회 설정
 ---
 
-# 3. Git 설치 & 최초 설정
+# Git 설치 & 최초 설정
 
 > 이 단계는 [PowerShell 기본 명령어](./powershell-commands)를 확인한 뒤 진행합니다. **PowerShell 7** 창에서 실행하세요.
 
