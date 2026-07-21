@@ -48,4 +48,4 @@ flowchart LR
 
 ---
 
-**다음:** [부록](./appendix)
+**다음:** [최종 결과물 제출 안내](./final-submission)

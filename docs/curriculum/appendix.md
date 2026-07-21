@@ -1,7 +1,7 @@
 ---
 id: appendix
 title: "부록"
-sidebar_position: 7
+sidebar_position: 8
 description: 핵심 개념 보충 설명 모음
 ---
 
